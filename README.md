@@ -20,3 +20,27 @@ Preliminary:<br>
 <td>0</td><td>magnetic field</td><td>Gyro</td><td>Keke</td><td>1</td><td>f3</td><td>f2</td><td>f1</td>
 </tr>
 </table>
+
+<table>
+<tr>
+<td>Bit</td><td>Description</td>
+</tr>
+<tr>
+<td>7:</td><td>This bit must be 0</td>
+</tr>
+<tr>
+<td>6:</td><td>Default CR6 = 1, when CR6 = 0 is off magnetometer sensor 1 is ON</td>
+</tr>
+<tr>
+<td>5:</td><td>Default CR5 = 1, when the CR5 = 0 is off gyro sensor 1 is ON</td>
+</tr>
+<tr>
+<td>4:</td><td>Default CR4 = 1, when CR4 = 0 plus the sensor is off, 1 is ON</td>
+</tr>
+<tr>
+<td>3:</td><td>This bit must be 1</td>
+</tr>
+<tr>
+<td>2..0:</td><td>Set the data output rate: 3(011): 50hz, 4(100): 100hz, 5a(101): 200hz</td>
+</tr>
+</table>
