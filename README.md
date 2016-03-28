@@ -12,7 +12,8 @@ The purpose of the library is expose the data I want in simple way and have the 
 
 Preliminary:<br>
 
-| 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | ------------- | ------------- | ------------- | ------------- | ------------- |
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+</table>
