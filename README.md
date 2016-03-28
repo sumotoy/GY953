@@ -470,3 +470,73 @@ Register <b>Q3_L (0x22)</b><br>
 <td>1..0:</td><td>Get magnetometer calibration accuracy, 11: highest, lowest 00</td>
 </tr>
 </table>
+
+
+Register <b>ACC_SUM (0x25)</b><br>
+<table>
+<tr>
+<td colspan="8">8bit: Accelerometer six data registers and data accumulation (0x03 ~ 0x08)</td>
+</tr>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">ACC_X_H + ACC_X_L +. . . ACC_Z_L</td>
+</tr>
+</table>
+
+Register <b>GYRO_SUM (0x26)</b><br>
+<table>
+<tr>
+<td colspan="8">8bit: gyroscope 6 data register data accumulation and (0x09 ~ 0x0E)</td>
+</tr>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">GYRO_X_H + GYRO_X_L + . . . GYRO_Z_L</td>
+</tr>
+</table>
+
+Register <b>COMPASS_SUM (0x27)</b><br>
+<table>
+<tr>
+<td colspan="8">8bit: 6 magnetometer data accumulation and data register (0x0F ~ 0x14)</td>
+</tr>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">COMPASS_X_H + COMPASS_X_L + . . . COMPASS_Z_L</td>
+</tr>
+</table>
+
+Register <b>RPY_SUM (0x28)</b><br>
+<table>
+<tr>
+<td colspan="8">8bit: Euler angles 6 data accumulation and data registers (0x15 ~ 0x1A)</td>
+</tr>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">ROLL_H + ROLL_L + . . . YAW_L</td>
+</tr>
+</table>
+
+Register <b>Q_SUM (0x29)</b><br>
+<table>
+<tr>
+<td colspan="8">8bit: quaternion eight data registers and data accumulation (0x1B ~ 0x22)</td>
+</tr>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Q0_H + Q0_L + . . . Q3_L</td>
+</tr>
+</table>
+
+<br>
+<b>Note:</b> The accuracy of the magnetic field, the magnetic field can be used as a calibration completion flag.<br>
+
