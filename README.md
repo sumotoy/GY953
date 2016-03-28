@@ -426,7 +426,7 @@ Register <b>Q3_L (0x22)</b><br>
 <td><b>Bit</b></td><td><b>Description</b></td>
 </tr>
 <tr>
-<td>7.6:</td><td>Reserved</td>
+<td>7..6:</td><td>Reserved</td>
 </tr>
 <tr>
 <td>5..4:</td><td>Acceleration Range 0:+-2g, 1:+-4g, 2:+-8g, 3:+-16g</td>
@@ -436,5 +436,37 @@ Register <b>Q3_L (0x22)</b><br>
 </tr>
 <tr>
 <td>1..0:</td><td>Magnetometer range 0:14bit(0.6ut, 4915), 1:16bit(0.15ut, 4915)</td>
+</tr>
+</table>
+
+
+<b>Status Register C (0x24)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td>new</td><td>0</td><td colspan="2">Accelleration</td><td colspan="2">Gyro</td><td colspan="2">Magnetometer</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><b>Bit</b></td><td><b>Description</b></td>
+</tr>
+<tr>
+<td>7:</td><td>Data update automatically cleared after reading</td>
+</tr>
+<tr>
+<td>6:</td><td>Reserved</td>
+</tr>
+<tr>
+<td>5..4:</td><td>Get accelerometer calibration accuracy, 11: highest, lowest 00</td>
+</tr>
+<tr>
+<td>3..2:</td><td>Get gyro meter calibration accuracy, 11: highest, lowest 00</td>
+</tr>
+<tr>
+<td>1..0:</td><td>Get magnetic field calibration accuracy, 11: highest, lowest 00</td>
 </tr>
 </table>
