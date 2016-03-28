@@ -12,6 +12,7 @@ The purpose of the library is expose the data I want in simple way and have the 
 
 Preliminary:<br>
 
+<b>configuration register A (0x01) R/W</b><br>
 <table>
 <tr>
 <td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
