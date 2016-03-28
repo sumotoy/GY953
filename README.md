@@ -87,12 +87,62 @@ Registry description (Preliminary):<br>
 </table>
 
 
-<b>Register ACC_X_H (0x03)</b><br>
+Register <b>ACC_X_H (0x03)</b><br>
 <table>
 <tr>
 <td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
 </tr>
 <tr>
-<td colspan="8">aaa</td>
+<td colspan="8">X-axis acceleration HSB</td>
+</tr>
+</table>
+
+Register <b>ACC_X_L (0x04)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">X-axis acceleration LSB</td>
+</tr>
+</table>
+
+Register <b>ACC_Y_H (0x05)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Y-axis acceleration HSB</td>
+</tr>
+</table>
+
+Register <b>ACC_Y_L (0x06)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Y-axis acceleration LSB</td>
+</tr>
+</table>
+
+Register <b>ACC_Z_H (0x07)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Z-axis acceleration HSB</td>
+</tr>
+</table>
+
+Register <b>ACC_Z_L (0x08)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Z-axis acceleration LSB</td>
 </tr>
 </table>
