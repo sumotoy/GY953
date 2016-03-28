@@ -30,13 +30,13 @@ Preliminary:<br>
 <td>7:</td><td>This bit must be 0</td>
 </tr>
 <tr>
-<td>6:</td><td>Default bit6 = 1, when bit6 = 0 is off magnetometer sensor 1 is ON</td>
+<td>6:</td><td>Magnetometer, Default = 1, (0:off,1:ON)</td>
 </tr>
 <tr>
-<td>5:</td><td>Default bit5 = 1, when the bit5 = 0 is off gyro sensor 1 is ON</td>
+<td>5:</td><td>Gyro, , Default = 1, (0:off,1:ON)</td>
 </tr>
 <tr>
-<td>4:</td><td>Default bit4 = 1, when bit4 = 0 plus the sensor is off, 1 is ON</td>
+<td>4:</td><td>Acc, , Default = 1, (0:off,1:ON)</td>
 </tr>
 <tr>
 <td>3:</td><td>This bit must be 1</td>
