@@ -24,7 +24,7 @@ Registry description (Preliminary):<br>
 
 <table>
 <tr>
-<td>Bit</td><td>Description</td>
+<td><b>Bit</b></td><td><b>Description</b></td>
 </tr>
 <tr>
 <td>7:</td><td>This bit must be 0</td>
@@ -58,7 +58,7 @@ Registry description (Preliminary):<br>
 
 <table>
 <tr>
-<td>Bit</td><td>Description</td>
+<td><b>Bit</b></td><td><b>Description</b></td>
 </tr>
 <tr>
 <td>7:</td><td>1:restore factory settings</td>
