@@ -1,0 +1,27 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+GY953	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+update	KEYWORD2
+getRPY	KEYWORD2
+getACC	KEYWORD2
+getGYR	KEYWORD2
+getMAG	KEYWORD2
+getQ	KEYWORD2
+setRefreshRate	KEYWORD2
+calibration	KEYWORD2
+readAccuracy	KEYWORD2
+readRange	KEYWORD2
+sensorEnabled	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
