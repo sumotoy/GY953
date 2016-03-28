@@ -146,3 +146,265 @@ Register <b>ACC_Z_L (0x08)</b><br>
 <td colspan="8">Z-axis acceleration LSB</td>
 </tr>
 </table>
+
+Register <b>GYRO_X_H (0x09)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">X-axis gyro HSB</td>
+</tr>
+</table>
+
+Register <b>GYRO_X_L (0x0A)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">X-axis gyro LSB</td>
+</tr>
+</table>
+
+Register <b>GYRO_Y_H (0x0B)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Y axis gyro HSB</td>
+</tr>
+</table>
+
+Register <b>GYRO_Y_L (0x0C)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Y axis gyro LSB</td>
+</tr>
+</table>
+
+Register <b>GYRO_Z_H (0x0D)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Z axis gyro HSB</td>
+</tr>
+</table>
+
+Register <b>GYRO_Z_L (0x0E)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Z axis gyro LSB</td>
+</tr>
+</table>
+
+Register <b>COMPASS_X_H (0x0F)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">X axis compass HSB</td>
+</tr>
+</table>
+
+Register <b>COMPASS_X_L (0x10)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">X axis compass LSB</td>
+</tr>
+</table>
+
+
+Register <b>COMPASS_Y_H (0x11)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Y axis compass HSB</td>
+</tr>
+</table>
+
+Register <b>COMPASS_Y_L (0x12)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Y axis compass LSB</td>
+</tr>
+</table>
+
+Register <b>COMPASS_Z_H (0x13)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Z axis compass HSB</td>
+</tr>
+</table>
+
+Register <b>COMPASS_Z_L (0x14)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Z axis compass LSB</td>
+</tr>
+</table>
+
+Register <b>ROLL_H (0x15)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Roll angle HSB</td>
+</tr>
+</table>
+
+Register <b>ROLL_L (0x16)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Roll angle LSB</td>
+</tr>
+</table>
+
+Register <b>PITCH_H (0x17)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Pitch angle HSB</td>
+</tr>
+</table>
+
+Register <b>PITCH_L (0x18)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Pitch angle LSB</td>
+</tr>
+</table>
+
+
+Register <b>YAW_H (0x19)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Yaw angle HSB</td>
+</tr>
+</table>
+
+Register <b>YAW_L (0x1A)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Yaw angle LSB</td>
+</tr>
+</table>
+
+Register <b>Q0_H (0x1B)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Quaternion Q0 HSB</td>
+</tr>
+</table>
+
+Register <b>Q0_L (0x1C)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Quaternion Q0 LSB</td>
+</tr>
+</table>
+
+Register <b>Q1_H (0x1D)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Quaternion Q1 HSB</td>
+</tr>
+</table>
+
+Register <b>Q1_L (0x1E)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Quaternion Q1 LSB</td>
+</tr>
+</table>
+
+Register <b>Q2_H (0x1F)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Quaternion Q2 HSB</td>
+</tr>
+</table>
+
+Register <b>Q2_L (0x20)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Quaternion Q2 LSB</td>
+</tr>
+</table>
+
+Register <b>Q3_H (0x21)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Quaternion Q3 HSB</td>
+</tr>
+</table>
+
+Register <b>Q3_L (0x22)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="8">Quaternion Q3 LSB</td>
+</tr>
+</table>
