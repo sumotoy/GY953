@@ -30,13 +30,13 @@ Registry description (Preliminary):<br>
 <td>7:</td><td>This bit must be 0</td>
 </tr>
 <tr>
-<td>6:</td><td>Magnetometer, Default = 1, (0:off,1:ON)</td>
+<td>6:</td><td>Magnetometer, Default = 1, (0:OFF,1:ON)</td>
 </tr>
 <tr>
-<td>5:</td><td>Gyro, , Default = 1, (0:off,1:ON)</td>
+<td>5:</td><td>Gyro, , Default = 1, (0:OFF,1:ON)</td>
 </tr>
 <tr>
-<td>4:</td><td>Acc, , Default = 1, (0:off,1:ON)</td>
+<td>4:</td><td>Acc, , Default = 1, (0:OFF,1:ON)</td>
 </tr>
 <tr>
 <td>3:</td><td>This bit must be 1</td>
@@ -47,3 +47,42 @@ Registry description (Preliminary):<br>
 </table>
 
 <b>configuration register B (0x02) R/W</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td>Factory</td><td>0</td><td>0</td><td>1</td><td>cc</td><td>self</td><td>0</td><td>1</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>Bit</td><td>Description</td>
+</tr>
+<tr>
+<td>7:</td><td>1:restore factory settings</td>
+</tr>
+<tr>
+<td>6:</td><td>Must be 0</td>
+</tr>
+<tr>
+<td>5:</td><td>Must be 0</td>
+</tr>
+<tr>
+<td>4:</td><td>Must be 1</td>
+</tr>
+<tr>
+<td>3:</td><td>1:magnetic field start calibration; automatically save the data</td>
+</tr>
+<tr>
+<td>2:</td><td>1:self-test and calibration of accelerometers and gyroscopes; automatically save data</td>
+</tr>
+<tr>
+<td>1:</td>Must be 0<td></td>
+</tr>
+<tr>
+<td>0:</td>Must be 1<td></td>
+</tr>
+</table>
+
