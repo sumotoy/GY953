@@ -7,3 +7,12 @@ The reason I wrote this is simple, cannot find any documentation and the module 
 
 First, since I don't have any documentation, this is just an experiment so please do not ask me!<br>
 The purpose of the library is expose the data I want in simple way and have the full SPI transaction compatibility, since the chip uses SPI mode 3 it will not play nice if other SPI devices are in the same bus.
+
+
+
+Preliminary:<br>
+
+| 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | ------------- | ------------- | ------------- | ------------- | ------------- |
