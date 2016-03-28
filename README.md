@@ -10,7 +10,7 @@ The purpose of the library is expose the data I want in simple way and have the 
 
 
 
-Preliminary:<br>
+Registry description (Preliminary):<br>
 
 <b>configuration register A (0x01) R/W</b><br>
 <table>
@@ -45,3 +45,5 @@ Preliminary:<br>
 <td>2..0:</td><td>Set the data output rate: 3(011): 50hz, 4(100): 100hz, 5a(101): 200hz</td>
 </tr>
 </table>
+
+<b>configuration register B (0x02) R/W</b><br>
