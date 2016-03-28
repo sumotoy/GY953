@@ -467,6 +467,6 @@ Register <b>Q3_L (0x22)</b><br>
 <td>3..2:</td><td>Get gyro meter calibration accuracy, 11: highest, lowest 00</td>
 </tr>
 <tr>
-<td>1..0:</td><td>Get magnetic field calibration accuracy, 11: highest, lowest 00</td>
+<td>1..0:</td><td>Get magnetometer calibration accuracy, 11: highest, lowest 00</td>
 </tr>
 </table>
