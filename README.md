@@ -52,7 +52,7 @@ Registry description (Preliminary):<br>
 <td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
 </tr>
 <tr>
-<td>Factory</td><td>0</td><td>0</td><td>1</td><td>cc</td><td>self</td><td>0</td><td>1</td>
+<td>Factory</td><td>0</td><td>0</td><td>1</td><td>Magn self-cal</td><td>self-test</td><td>0</td><td>1</td>
 </tr>
 </table>
 
@@ -73,10 +73,10 @@ Registry description (Preliminary):<br>
 <td>4:</td><td>Must be 1</td>
 </tr>
 <tr>
-<td>3:</td><td>1:magnetic field start calibration; automatically save the data</td>
+<td>3:</td><td>1:Magnetometer self-cal, automatically save the data</td>
 </tr>
 <tr>
-<td>2:</td><td>1:self-test and calibration of accelerometers and gyroscopes; automatically save data</td>
+<td>2:</td><td>1:self-test and calibration of accelerometers and gyroscopes, automatically save data</td>
 </tr>
 <tr>
 <td>1:</td><td>Must be 0</td>
