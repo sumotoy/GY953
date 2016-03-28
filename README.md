@@ -86,3 +86,13 @@ Registry description (Preliminary):<br>
 </tr>
 </table>
 
+
+<b>Register ACC_X_H (0x03)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td span=8>aaa</td>
+</tr>
+</table>
