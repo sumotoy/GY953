@@ -79,10 +79,10 @@ Registry description (Preliminary):<br>
 <td>2:</td><td>1:self-test and calibration of accelerometers and gyroscopes; automatically save data</td>
 </tr>
 <tr>
-<td>1:</td>Must be 0<td></td>
+<td>1:</td><td>Must be 0</td>
 </tr>
 <tr>
-<td>0:</td>Must be 1<td></td>
+<td>0:</td><td>Must be 1</td>
 </tr>
 </table>
 
