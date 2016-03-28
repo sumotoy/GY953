@@ -15,5 +15,6 @@ Preliminary:<br>
 <table>
 <tr>
 <td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+<td>0</td><td>magnetic field</td><td>Gyro</td><td>Keke</td><td>1</td><td>f3</td><td>f2</td><td>f1</td>
 </tr>
 </table>
