@@ -409,3 +409,32 @@ Register <b>Q3_L (0x22)</b><br>
 <td colspan="8">Quaternion Q3 LSB</td>
 </tr>
 </table>
+
+
+<b>Status Register D (0x23)</b><br>
+<table>
+<tr>
+<td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td colspan="2">0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><b>Bit</b></td><td><b>Description</b></td>
+</tr>
+<tr>
+<td>7.6:</td><td>Reserved</td>
+</tr>
+<tr>
+<td>5..4:</td><td>Acceleration Range 0:+-2g, 1:+-4g, 2:+-8g, 3:+-16g</td>
+</tr>
+<tr>
+<td>3..2:</td><td>Gyro Range 0:+250dps, 1:+500dps, 2:+1000dps, 3:+2000dps</td>
+</tr>
+<tr>
+<td>1..0:</td><td>Magnetometer range 0:14bit(0.6ut, 4915), 1:16bit(0.15ut, 4915)</td>
+</tr>
+</table>
